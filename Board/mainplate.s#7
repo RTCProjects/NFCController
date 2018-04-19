@@ -8029,6 +8029,8 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="LED_GND4" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="BTN_IN" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="BTN_OUT" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="AUDIO_1" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="AUDIO_2" library="wirepad" deviceset="2,54/1,0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8085,6 +8087,8 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <instance part="LED_GND4" gate="P" x="-53.34" y="78.74"/>
 <instance part="BTN_IN" gate="P" x="-53.34" y="71.12"/>
 <instance part="BTN_OUT" gate="P" x="-53.34" y="66.04"/>
+<instance part="AUDIO_1" gate="P" x="-53.34" y="58.42"/>
+<instance part="AUDIO_2" gate="P" x="-53.34" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -8632,6 +8636,18 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="LED_R" gate="P" pin="P"/>
 <wire x1="-50.8" y1="114.3" x2="-38.1" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="114.3" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUDIO_1" class="0">
+<segment>
+<pinref part="AUDIO_1" gate="P" pin="P"/>
+<wire x1="-50.8" y1="58.42" x2="-45.72" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUDIO_2" class="0">
+<segment>
+<pinref part="AUDIO_2" gate="P" pin="P"/>
+<wire x1="-50.8" y1="53.34" x2="-45.72" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

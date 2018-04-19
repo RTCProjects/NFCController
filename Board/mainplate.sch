@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8004,7 +8004,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="U1" library="ST Microelctronics_By_element14_Batch_1" deviceset="M24C04-WMN6P" device=""/>
 <part name="U$2" library="Microchip_By_element14_Batch_1" deviceset="MCP73831T-2ACI/OT" device=""/>
 <part name="U2" library="NXP_By_element14_Batch_1" deviceset="PCF8563T/F4,118" device=""/>
-<part name="Q2" library="crystal-geyer_V1_0" deviceset="KX" device="-7"/>
+<part name="Q2" library="crystal-geyer_V1_0" deviceset="KX" device="-K"/>
 <part name="U3" library="ST Microelctronics_By_element14_Batch_1" deviceset="STM32F103CBT6" device=""/>
 <part name="Q1" library="crystal-geyer_V1_0" deviceset="KX-327" device="-NHT"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0603" value="4.7k"/>

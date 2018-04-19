@@ -8023,10 +8023,10 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="LED_R" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="LED_G" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="LED_GND" library="wirepad" deviceset="2,54/1,0" device=""/>
-<part name="LED_GND1" library="wirepad" deviceset="2,54/1,0" device=""/>
-<part name="LED_GND2" library="wirepad" deviceset="2,54/1,0" device=""/>
-<part name="LED_GND3" library="wirepad" deviceset="2,54/1,0" device=""/>
-<part name="LED_GND4" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="USB_VCC" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="USB_DM" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="USB_DP" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="USB_GND" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="BTN_IN" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="BTN_OUT" library="wirepad" deviceset="2,54/1,0" device=""/>
 <part name="AUDIO_1" library="wirepad" deviceset="2,54/1,0" device=""/>
@@ -8081,10 +8081,10 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <instance part="LED_R" gate="P" x="-53.34" y="114.3"/>
 <instance part="LED_G" gate="P" x="-53.34" y="109.22"/>
 <instance part="LED_GND" gate="P" x="-53.34" y="104.14"/>
-<instance part="LED_GND1" gate="P" x="-53.34" y="93.98"/>
-<instance part="LED_GND2" gate="P" x="-53.34" y="88.9"/>
-<instance part="LED_GND3" gate="P" x="-53.34" y="83.82"/>
-<instance part="LED_GND4" gate="P" x="-53.34" y="78.74"/>
+<instance part="USB_VCC" gate="P" x="-53.34" y="93.98"/>
+<instance part="USB_DM" gate="P" x="-53.34" y="88.9"/>
+<instance part="USB_DP" gate="P" x="-53.34" y="83.82"/>
+<instance part="USB_GND" gate="P" x="-53.34" y="78.74"/>
 <instance part="BTN_IN" gate="P" x="-53.34" y="71.12"/>
 <instance part="BTN_OUT" gate="P" x="-53.34" y="66.04"/>
 <instance part="AUDIO_1" gate="P" x="-53.34" y="58.42"/>
@@ -8237,6 +8237,11 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="AUDIO_2" gate="P" pin="P"/>
 <wire x1="-50.8" y1="53.34" x2="-45.72" y2="53.34" width="0.1524" layer="91"/>
 <label x="-45.72" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="USB_GND" gate="P" pin="P"/>
+<wire x1="-50.8" y1="78.74" x2="-45.72" y2="78.74" width="0.1524" layer="91"/>
+<label x="-45.72" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8646,6 +8651,27 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="AUDIO_1" gate="P" pin="P"/>
 <wire x1="-50.8" y1="58.42" x2="-45.72" y2="58.42" width="0.1524" layer="91"/>
 <label x="-45.72" y="58.42" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="USB_VCC" gate="P" pin="P"/>
+<wire x1="-50.8" y1="93.98" x2="-45.72" y2="93.98" width="0.1524" layer="91"/>
+<label x="-45.72" y="93.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="USB_DM" gate="P" pin="P"/>
+<wire x1="-50.8" y1="88.9" x2="-45.72" y2="88.9" width="0.1524" layer="91"/>
+<label x="-45.72" y="88.9" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="USB_DP" gate="P" pin="P"/>
+<wire x1="-50.8" y1="83.82" x2="-45.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="-45.72" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

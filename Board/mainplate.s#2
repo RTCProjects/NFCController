@@ -8653,21 +8653,21 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <label x="-45.72" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="USB_VCC" class="0">
 <segment>
 <pinref part="USB_VCC" gate="P" pin="P"/>
 <wire x1="-50.8" y1="93.98" x2="-45.72" y2="93.98" width="0.1524" layer="91"/>
 <label x="-45.72" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="USB_DM" class="0">
 <segment>
 <pinref part="USB_DM" gate="P" pin="P"/>
 <wire x1="-50.8" y1="88.9" x2="-45.72" y2="88.9" width="0.1524" layer="91"/>
 <label x="-45.72" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="USB_DP" class="0">
 <segment>
 <pinref part="USB_DP" gate="P" pin="P"/>
 <wire x1="-50.8" y1="83.82" x2="-45.72" y2="83.82" width="0.1524" layer="91"/>
