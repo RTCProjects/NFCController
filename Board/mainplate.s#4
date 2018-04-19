@@ -7937,20 +7937,20 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1,0/0,6">
+<package name="2,54/1,0">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="-0.762" y1="0.762" x2="-0.508" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.508" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="-0.508" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="-0.762" x2="0.508" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="0.4" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.6" diameter="1"/>
-<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
+<text x="-1.27" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -7963,13 +7963,13 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1,0/0,6" prefix="PAD" uservalue="yes">
+<deviceset name="2,54/1,0" prefix="PAD" uservalue="yes">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <gates>
 <gate name="P" symbol="PAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1,0/0,6">
+<device name="" package="2,54/1,0">
 <connects>
 <connect gate="P" pin="P" pad="1"/>
 </connects>
@@ -8020,17 +8020,17 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="C9" library="resistor" deviceset="C-EU" device="C0603"/>
 <part name="C10" library="resistor" deviceset="C-EU" device="C0603"/>
 <part name="X2" library="con-molex" deviceset="22-23-2041" device=""/>
-<part name="PAD1" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD2" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD3" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD4" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD5" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD6" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD7" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD8" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD9" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD10" library="wirepad" deviceset="1,0/0,6" device=""/>
-<part name="PAD11" library="wirepad" deviceset="1,0/0,6" device=""/>
+<part name="LED_R" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="LED_G" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="LED_GND" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="LED_GND1" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="LED_GND2" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="LED_GND3" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="LED_GND4" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="BTN_IN" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="BTN_OUT" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="AUDIO_1" library="wirepad" deviceset="2,54/1,0" device=""/>
+<part name="AUDIO_2" library="wirepad" deviceset="2,54/1,0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8078,17 +8078,17 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <instance part="X2" gate="-2" x="86.36" y="27.94" rot="R180"/>
 <instance part="X2" gate="-3" x="86.36" y="30.48" rot="R180"/>
 <instance part="X2" gate="-4" x="86.36" y="33.02" rot="R180"/>
-<instance part="PAD1" gate="P" x="-53.34" y="114.3"/>
-<instance part="PAD2" gate="P" x="-53.34" y="109.22"/>
-<instance part="PAD3" gate="P" x="-53.34" y="104.14"/>
-<instance part="PAD4" gate="P" x="-53.34" y="93.98"/>
-<instance part="PAD5" gate="P" x="-53.34" y="88.9"/>
-<instance part="PAD6" gate="P" x="-53.34" y="78.74"/>
-<instance part="PAD7" gate="P" x="-53.34" y="73.66"/>
-<instance part="PAD8" gate="P" x="-53.34" y="63.5"/>
-<instance part="PAD9" gate="P" x="-53.34" y="58.42"/>
-<instance part="PAD10" gate="P" x="-53.34" y="53.34"/>
-<instance part="PAD11" gate="P" x="-53.34" y="48.26"/>
+<instance part="LED_R" gate="P" x="-53.34" y="114.3"/>
+<instance part="LED_G" gate="P" x="-53.34" y="109.22"/>
+<instance part="LED_GND" gate="P" x="-53.34" y="104.14"/>
+<instance part="LED_GND1" gate="P" x="-53.34" y="93.98"/>
+<instance part="LED_GND2" gate="P" x="-53.34" y="88.9"/>
+<instance part="LED_GND3" gate="P" x="-53.34" y="83.82"/>
+<instance part="LED_GND4" gate="P" x="-53.34" y="78.74"/>
+<instance part="BTN_IN" gate="P" x="-53.34" y="71.12"/>
+<instance part="BTN_OUT" gate="P" x="-53.34" y="66.04"/>
+<instance part="AUDIO_1" gate="P" x="-53.34" y="58.42"/>
+<instance part="AUDIO_2" gate="P" x="-53.34" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -8228,6 +8228,11 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <wire x1="58.42" y1="22.86" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <label x="58.42" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LED_GND" gate="P" pin="P"/>
+<wire x1="-50.8" y1="104.14" x2="-45.72" y2="104.14" width="0.1524" layer="91"/>
+<label x="-45.72" y="104.14" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -8260,6 +8265,11 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <wire x1="-30.48" y1="177.8" x2="-30.48" y2="180.34" width="0.1524" layer="91"/>
 <junction x="-30.48" y="180.34"/>
 <label x="-33.02" y="180.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="BTN_OUT" gate="P" pin="P"/>
+<wire x1="-50.8" y1="66.04" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
+<label x="-45.72" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -8580,6 +8590,11 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <junction x="58.42" y="33.02"/>
 <label x="60.96" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="BTN_IN" gate="P" pin="P"/>
+<wire x1="-50.8" y1="71.12" x2="-45.72" y2="71.12" width="0.1524" layer="91"/>
+<label x="-45.72" y="71.12" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$13" class="0">
 <segment>
@@ -8605,6 +8620,34 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="X2" gate="-2" pin="S"/>
 <wire x1="88.9" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
 <label x="91.44" y="27.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED_G" class="0">
+<segment>
+<pinref part="LED_G" gate="P" pin="P"/>
+<wire x1="-50.8" y1="109.22" x2="-45.72" y2="109.22" width="0.1524" layer="91"/>
+<label x="-45.72" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED_R" class="0">
+<segment>
+<pinref part="LED_R" gate="P" pin="P"/>
+<wire x1="-50.8" y1="114.3" x2="-45.72" y2="114.3" width="0.1524" layer="91"/>
+<label x="-45.72" y="114.3" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="AUDIO_1" class="0">
+<segment>
+<pinref part="AUDIO_1" gate="P" pin="P"/>
+<wire x1="-50.8" y1="58.42" x2="-45.72" y2="58.42" width="0.1524" layer="91"/>
+<label x="-45.72" y="58.42" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="AUDIO_2" class="0">
+<segment>
+<pinref part="AUDIO_2" gate="P" pin="P"/>
+<wire x1="-50.8" y1="53.34" x2="-45.72" y2="53.34" width="0.1524" layer="91"/>
+<label x="-45.72" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
